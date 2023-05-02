@@ -5,7 +5,7 @@
 - Understand how to use For Loops to iterate over Arrays and other similar structures
 - Understand how to use While Loops to loop until a given situation occurs
 - Understand how Do/While and While loops differ in their behaviour
-- Understand when and why infinite loops can occur and why this is a sometimes a good thing
+- Understand when and why infinite loops can occur and why this is sometimes a good thing
 
 ## Definite Loops - Counted
 
