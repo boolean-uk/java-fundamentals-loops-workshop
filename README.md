@@ -9,7 +9,7 @@
 
 ## Definite Loops - Counted
 
-In JavaScript you encountered for loops which allow your code to run a specific number of times before moving on. The basic code for a for loop looks like this:
+For loops allow your code to run a specific number of times before moving on. The basic code for a for loop looks like this:
 
 ```java
 public void outputNumbers() {
@@ -18,9 +18,9 @@ public void outputNumbers() {
     }
 }
 ```
-This will output the numbers from 0 to 9. We can name the loop variable anything but common names are i, x or n all of which probably come from their use for similar activities in Maths.
+This will output the numbers from 0 to 9. We can name the loop variable anything but common names are `i`, `x` or `n` all of which probably come from their use for similar activities in Maths.
 
-The variable i is limited in scope if you try and access the value of it after the loop exits then you will get an error.
+The variable `i` is limited in scope if you try and access the value of it after the loop exits then you will get an error.
 
 ```java
 public void outputNumbers() {
@@ -70,7 +70,7 @@ public void outputEvenNumbersAlternative() {
 
 ## Definite Loops -  Iterate over a Collection
 
-We can use loops to build Arrays as long as we know how big we're going to want the array to be in advance (later in the week we'll cover a dynamic version of an Array) for instance if we wanted to put the even numbers from 4 to 16 inclusive, into an Array we could do the following:
+We can use loops to build Arrays as long as we know how big we're going to want the array to be in advance (later on we'll cover a dynamic version of an Array) for instance if we wanted to put the even numbers from 4 to 16 inclusive, into an Array we could do the following:
 
 ```java
 public int[] evenNumeberedArray() {
@@ -175,11 +175,11 @@ public void simpleChatBot() {
 }
 ```
 
-Things to note the loop does not actually exit until the test evaluates to false, so the whole rest of the loop will be run before the test is checked again and the loop exits, if we needed to exit earlier then we would need to use a `break` to exit from the loop at that earlier point.
+Things to note the loop does not actually exit until the test evaluates to false, so the whole rest of the loop will be run before the test is checked again and the loop exits, if we needed to exit earlier, then we would need to use a `break` to exit from the loop at that earlier point.
 
 ## Activity
 
-Make the chat-bot better by using asking for the user's name and storing it for later use, also add in functionality to make the chat-bot respond with one of a random selection of response strings which can be stored in an Array and chosen at random. You may need to look up how random numbers work in Java.
+Make the chatbot better by asking for the user's name and storing it for later use, also add in functionality to make the chatbot respond with one of a random selection of response strings which can be stored in an Array and chosen at random. You may need to look up how random numbers work in Java.
 
 ## Indefinite Loops - Variations
 
